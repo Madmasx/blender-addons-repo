@@ -1,7 +1,7 @@
 # Third-party notices
 
 Este repositorio **no contiene código original**: solo reempaqueta, sin
-modificar, 19 extensiones publicadas en [extensions.blender.org](https://extensions.blender.org/).
+modificar, 20 extensiones publicadas en [extensions.blender.org](https://extensions.blender.org/).
 Cada autor conserva la titularidad y la licencia de su obra.
 
 Los paquetes de `packages/` son copias sin modificar de las extensiones
@@ -10,11 +10,11 @@ empaquetarlo (ver la sección de notas del README).
 
 ## Licencias
 
-Las 19 extensiones son software libre copyleft:
+Las 20 extensiones son software libre copyleft:
 
 | Licencia | Extensiones |
 |---|---|
-| `GPL-3.0-or-later` | ambientcg_material_importer, anim_reviewer, animall, batch_exporter, blender_speed_curve, bool_tool, ContextPie, copy_paste_nodes, easeit, extra_mesh_objects, glare_node_controller, node_arrange, node_to_python, power_sequencer, render_gif_animation |
+| `GPL-3.0-or-later` | ambientcg_material_importer, anim_reviewer, animall, batch_exporter, blender_speed_curve, bool_tool, ContextPie, copy_paste_nodes, easeit, extra_mesh_objects, glare_node_controller, node_arrange, node_to_python, power_sequencer, quicksnap, render_gif_animation |
 | `GPL-2.0-or-later` | curve_tools, looptools, precision_drawing_tools_pdt |
 
 Textos completos en [`licenses/`](./licenses):
@@ -22,12 +22,14 @@ Textos completos en [`licenses/`](./licenses):
 - [`licenses/GPL-2.0-or-later.txt`](./licenses/GPL-2.0-or-later.txt)
 - [`licenses/GPL-3.0-or-later.txt`](./licenses/GPL-3.0-or-later.txt)
 
-**Sobre los paquetes sin archivo de licencia:** 15 de los 19 paquetes publicados
+**Sobre los paquetes sin archivo de licencia:** 15 de los 20 paquetes publicados
 en extensions.blender.org no incluyen su fichero `LICENSE` dentro del zip,
 aunque declaran GPL en el manifiesto. Para que esta redistribución cumpla los
 apartados (a) y (b) de la GPL —acompañar el trabajo con la licencia y con el
 código fuente— los textos completos están en `licenses/` y el código fuente
 completo de cada extensión está dentro de su propio paquete `.zip`.
+
+QuickSnap sí incluye su `LICENSE.md` dentro del paquete.
 
 ## Atribución
 
@@ -51,6 +53,7 @@ completo de cada extensión está dentro de su propio paquete `.zip`.
 | Node To Python | 4.2.0 | GPL-3.0-or-later | Brendan Parmer | [github.com/BrendanParmer/NodeToPython](https://github.com/BrendanParmer/NodeToPython) |
 | Power Sequencer | 2.0.4 | GPL-3.0-or-later | Comunidad (Blender Studio) | [projects.blender.org/extensions/power_sequencer](https://projects.blender.org/extensions/power_sequencer) |
 | Precision Drawing Tools (PDT) | 1.5.3 | GPL-2.0-or-later | Comunidad (Blender Studio) | [projects.blender.org/extensions/precision_drawing_tools](https://projects.blender.org/extensions/precision_drawing_tools) |
+| QuickSnap | 1.5.1 | GPL-3.0-or-later | Julien Heijmans | [github.com/JulienHeijmans/quicksnap](https://github.com/JulienHeijmans/quicksnap) |
 | Render Animated .GIF | 1.7.0 | GPL-3.0-or-later | byebyeLAN | [extensions.blender.org/add-ons/render-gif-animation](https://extensions.blender.org/add-ons/render-gif-animation/) |
 
 ## Dependencia de terceros incluida

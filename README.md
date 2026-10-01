@@ -6,7 +6,7 @@ desde la UI con **Edit > Preferences > Get Extensions**.
 
 ## Contenido
 
-19 extensiones, todas de `extensions.blender.org` y con licencia propia de cada
+20 extensiones, todas de `extensions.blender.org` y con licencia propia de cada
 autor. Este repo solo reempaqueta: los créditos y licencias originales están en
 el manifiesto de cada paquete y en los enlaces oficiales.
 
@@ -17,6 +17,7 @@ el manifiesto de cada paquete y en los enlaces oficiales.
 | Curve Tools | 0.4.6 | Modelado |
 | Precision Drawing Tools (PDT) | 1.5.3 | Modelado |
 | LoopTools | 4.7.7 | Modelado |
+| **QuickSnap** | **1.5.1** | **Modelado** |
 | Node To Python | 4.2.0 | Nodos |
 | Node Arrange | 1.12.1 | Nodos |
 | Copy/Paste Nodes | 0.1.6 | Nodos |
@@ -31,6 +32,12 @@ el manifiesto de cada paquete y en los enlaces oficiales.
 | NDOF Viewport Switcher | 1.3.4 | Flujo de trabajo |
 | Context Pie | 0.9.51 | Interfaz |
 | Render Animated .GIF | 1.7.0 | Render |
+
+### Procedencia
+
+19 de las 20 se instalaron desde `extensions.blender.org` (carpeta
+`blender_org`). **QuickSnap 1.5.1** se instaló a mano desde disco (carpeta
+`user_default`); su versión coincide con la del catálogo oficial.
 
 ### No incluidos (ya vienen con Blender)
 
@@ -52,9 +59,46 @@ blender-addons-repo/
 
 ## Usar el repo
 
-### En local (ya registrado)
+### Opción A — desde GitHub (requiere repo **público**)
+
+`raw.githubusercontent.com` sirve el índice y los zips **de forma anónima**.
+Un repositorio privado devuelve `404` sin autenticación, así que Blender no
+puede leerlo. Hay que registrarlo apuntando al `index.json`:
 
 ```powershell
+blender --command extension repo-remove mis_addons
+blender --command extension repo-add mis_addons --name "Mis Addons" `
+  --url "https://raw.githubusercontent.com/Madmasx/blender-addons-repo/main/packages/index.json"
+blender --command extension sync
+```
+
+> Blender solo envía `Authorization: Bearer`, no Basic auth. Que
+> `raw.githubusercontent.com` acepte un Bearer para repos privados no está
+> documentado, así que **no des por hecho que la Opción B funcione** y
+> pruébala antes de confiar en ella.
+
+### Opción B — servirlo por HTTP tú mismo (funciona con repo privado)
+
+```powershell
+cd packages
+python -m http.server 8000
+```
+
+Y en otra terminal:
+
+```powershell
+blender --command extension repo-add mis_addons --name "Mis Addons" `
+  --url "http://localhost:8000/index.json"
+```
+
+### Opción C — directamente del disco (sin servidor)
+
+El repo ya está registrado así en local:
+
+```powershell
+blender --command extension repo-remove mis_addons
+blender --command extension repo-add mis_addons --name "Mis Addons" `
+  --url "file:///D:/Documents/Default%20Project/blender-addons-repo/packages"
 blender --command extension sync
 blender --command extension install bool_tool -e
 ```

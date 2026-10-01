@@ -443,6 +443,30 @@
     },
     {
       "schema_version": "1.0.0",
+      "id": "quicksnap",
+      "name": "QuickSnap",
+      "tagline": "Quickly snap objects/vertices/curve points",
+      "version": "1.5.1",
+      "type": "add-on",
+      "maintainer": "Julien Heijmans <julien.heijmans@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.0.0",
+      "website": "https://github.com/JulienHeijmans/quicksnap",
+      "copyright": [
+        "2022 Julien Heijmans"
+      ],
+      "tags": [
+        "Modeling",
+        "Object"
+      ],
+      "archive_url": "./quicksnap-1.5.1.zip",
+      "archive_size": 80845,
+      "archive_hash": "sha256:87cf0508bc028f06169229611690336370afbb67752c55a9b15144591d8014ef"
+    },
+    {
+      "schema_version": "1.0.0",
       "id": "render_gif_animation",
       "name": "Render Animated .GIF",
       "tagline": "Renders animated .GIF images directly from Blender",
