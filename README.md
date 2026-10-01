@@ -84,6 +84,29 @@ blender --command extension build --source-dir source/<id> --output-dir packages
 blender --command extension server-generate --repo-dir packages --repo-config blender_repo.toml --html
 ```
 
+## Publicar en GitHub (SSH, sin token)
+
+La clave pública está en [`github-ssh-key.pub`](./github-ssh-key.pub).
+
+1. Añádela en <https://github.com/settings/keys/new>
+   (title `DESKTOP-N3E49D2`, key = el contenido del archivo).
+2. Crea el repo vacío en <https://github.com/new>. **Marca "Private"** y
+   **no** inicialices con README ni `.gitignore`: si los creas, el push
+   rechazará las histories distintas.
+3. Sube:
+
+```powershell
+.\publish-github.ps1                       # Madmasx/blender-addons-repo
+.\publish-github.ps1 -Repo otro-nombre
+```
+
+El script comprueba la autenticación con `ssh -T` antes de tocar nada, y
+falla con instrucciones claras si la clave aún no está registrada.
+
+> SSH no puede **crear** repositorios, solo hacer push. Por eso el paso 2 es
+> manual. El script tampoco necesita token: la clave privada vive en
+> `~/.ssh/id_ed25519`, sin passphrase, con permisos restringidos a tu usuario.
+
 ## Notas importantes
 
 - **`render_gif_animation` ocupa 29.8 de los 33.6 MB** del repo: incluye el wheel
