@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Build source staging area.
+# Regenerate it from your installed extensions, then rebuild the packages:
+#   blender --command extension build --source-dir source/<id> --output-dir packages
+# Keeping it out of git avoids duplicating ~36 MB already stored in packages/.
+/source/
+
+# Blender
+*.blend1

@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+[repo]
+name = "Mis Addons"
+owner = "MR"
+tagline = "Set curado de extensiones utiles para Blender 5.2 LTS"
+type = "add-on"
+
+# Blender REQUIRES a non-empty blocklist to generate the index (it validates with
+# "if not blocklist:", so an empty list is rejected). This placeholder satisfies
+# that check; since no package in packages/ has this id it blocks nothing.
+# Swap it for a real entry, e.g.:
+#   [[blocklist]]
+#   id = "some_extension_id"
+#   reason = "Why it should not be installed from this repo"
+[[blocklist]]
+id = "_placeholder_no_extension_has_this_id_"
+reason = "Placeholder to satisfy Blender's non-empty blocklist requirement."

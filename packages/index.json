@@ -1,0 +1,474 @@
+{
+  "version": "v1",
+  "blocklist": [
+    {
+      "id": "_placeholder_no_extension_has_this_id_",
+      "reason": "Placeholder to satisfy Blender's non-empty blocklist requirement."
+    }
+  ],
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "ambientcg_material_importer",
+      "name": "AmbientCG Material Importer",
+      "tagline": "One-click material creation from AmbientCG",
+      "version": "1.5.0",
+      "type": "add-on",
+      "maintainer": "Nino Filiu <filiunino@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/ninofiliu/blender-ambientcg-addon",
+      "permissions": {
+        "network": "Makes calls to AmbientCG",
+        "files": "Import and cache textures to disk"
+      },
+      "tags": [
+        "Import-Export",
+        "Material"
+      ],
+      "archive_url": "./ambientcg_material_importer-1.5.0.zip",
+      "archive_size": 4578,
+      "archive_hash": "sha256:a6e3e33de952349ae74314a63d54a2d1a07be2927f4e88c07bafa48bfe056402"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "animall",
+      "name": "AnimAll",
+      "tagline": "Animate mesh, lattice, curve and surface data",
+      "version": "0.14.0",
+      "type": "add-on",
+      "maintainer": "Damien Picard <dam.pic@free.fr>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.0.0",
+      "website": "https://projects.blender.org/extensions/animation_animall",
+      "copyright": [
+        "2011-2014 Daniel Salazar",
+        "2019-2026 Damien Picard"
+      ],
+      "tags": [
+        "Animation"
+      ],
+      "archive_url": "./animall-0.14.0.zip",
+      "archive_size": 8635,
+      "archive_hash": "sha256:c8f9215653aa44d78634b9760ed756921b4f8a9416e0520bf7e4c414b4a0abbe"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "anim_reviewer",
+      "name": "Anim Reviewer",
+      "tagline": "Enhance blender playblast capabilities for animation review",
+      "version": "1.1.3",
+      "type": "add-on",
+      "maintainer": "FhyTan <FhyTan@outlook.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/FhyTan/blender-anim-reviewer",
+      "permissions": {
+        "files": "Save playblast videos in specified output folder"
+      },
+      "tags": [
+        "3D View",
+        "Animation",
+        "Camera",
+        "Pipeline"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./anim_reviewer-1.1.3.zip",
+      "archive_size": 1338365,
+      "archive_hash": "sha256:3aa300c38364ed24f7b0134e0558925e86404f3c2c72c6d1aa70949c86465936"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "batch_exporter",
+      "name": "Monty Batch Exporter",
+      "tagline": "Batch-export objects, collections, or scenes as individual files",
+      "version": "1.0.0",
+      "type": "add-on",
+      "maintainer": "Diego Mont\u00fafar",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/montyanim/ProjectC",
+      "copyright": [
+        "2026 Diego Mont\u00fafar"
+      ],
+      "permissions": {
+        "files": "Export files to disk"
+      },
+      "tags": [
+        "Import-Export",
+        "Pipeline"
+      ],
+      "archive_url": "./batch_exporter-1.0.0.zip",
+      "archive_size": 20764,
+      "archive_hash": "sha256:0be63a15e4d729275cf51aa5f91bb5f0a7cd3b55a3b485899b82f8cc7aebba02"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "blender_speed_curve",
+      "name": "Motion Style",
+      "tagline": "AE-style easing sliders and F-Curve speed visualization",
+      "version": "1.0.2",
+      "type": "add-on",
+      "maintainer": "Willy_work",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "Animation"
+      ],
+      "archive_url": "./blender_speed_curve-1.0.2.zip",
+      "archive_size": 6385,
+      "archive_hash": "sha256:53b4a7d24c8555e4a3dcd18d6575dcd81ad7afb7f5c8ddfc04a45de94a50aa86"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "bool_tool",
+      "name": "Bool Tool",
+      "tagline": "Quick Boolean operators and tools for hard surface modeling",
+      "version": "2.1.0",
+      "type": "add-on",
+      "maintainer": "Nika Kutsniashvili",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.5.0",
+      "website": "https://nickberckley.github.io/bool_tool/",
+      "copyright": [
+        "2024 Nika Kutsniashvili",
+        "2024 Vitor Balbio",
+        "2024 Mikhail Rachinskiy",
+        "2024 TynkaTopi",
+        "2024 Meta-Androcto",
+        "2024 Simon Appelt",
+        "2024 Pixivore",
+        "2024 Cedric LEPILLER",
+        "2024 Ted Milker",
+        "2024 Clarkx"
+      ],
+      "tags": [
+        "Modeling",
+        "Object"
+      ],
+      "archive_url": "./bool_tool-2.1.0.zip",
+      "archive_size": 173035,
+      "archive_hash": "sha256:6f8e048aacb4845abce8f328597253f452ea26471240ef7d9a25602bb42e0686"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ContextPie",
+      "name": "Context Pie",
+      "tagline": "Context sensitive pie menu for a simple, fast workflow",
+      "version": "0.9.51",
+      "type": "add-on",
+      "maintainer": "Bastian L Strube <mail@bastianlstrube.dk>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "5.1.0",
+      "website": "https://github.com/bastianlstrube/ContextPie",
+      "tags": [
+        "User Interface",
+        "3D View",
+        "UV"
+      ],
+      "archive_url": "./ContextPie-0.9.51.zip",
+      "archive_size": 116638,
+      "archive_hash": "sha256:6e9399ca94409f6cd2090fa759d97e663daa136b2cac74ef7d0741b57e24c83d"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "copy_paste_nodes",
+      "name": "Copy/Paste Nodes",
+      "tagline": "Copy nodes to and from the system clipboard as JSON",
+      "version": "0.1.6",
+      "type": "add-on",
+      "maintainer": "David Murmann",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.5.0",
+      "website": "https://github.com/davidm494/blender_addons",
+      "permissions": {
+        "clipboard": "Copy and paste nodes to the clipboard"
+      },
+      "tags": [
+        "Node"
+      ],
+      "archive_url": "./copy_paste_nodes-0.1.6.zip",
+      "archive_size": 10745,
+      "archive_hash": "sha256:1d3d3657f4e4032afb31c150c03f8b9f5e00c809391da10fc94463d5a7236c18"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "curve_tools",
+      "name": "Curve Tools",
+      "tagline": "Adds some functionality for bezier/nurbs curve/surface modeling",
+      "version": "0.4.6",
+      "type": "add-on",
+      "maintainer": "Community",
+      "license": [
+        "SPDX:GPL-2.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://projects.blender.org/extensions/curve_tools",
+      "copyright": [
+        "2024 Mackraken",
+        "2024 Spivak Vladimir (cwolf3d)"
+      ],
+      "tags": [
+        "Add Curve"
+      ],
+      "archive_url": "./curve_tools-0.4.6.zip",
+      "archive_size": 57298,
+      "archive_hash": "sha256:c56f6ca3e8b1a151247bc56cdf3d0b028399ea520793bd61b0f2836d133ae6e3"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "easeit",
+      "name": "Easeit",
+      "tagline": "Quickly apply easing presets to animation keyframes",
+      "version": "2.0.3",
+      "type": "add-on",
+      "maintainer": "Andy Cuccaro",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/andycuccaro/easeit-addon",
+      "tags": [
+        "Animation"
+      ],
+      "archive_url": "./easeit-2.0.3.zip",
+      "archive_size": 63152,
+      "archive_hash": "sha256:0be04f420628d7c8e1c0b91bc590912952922f9379726f8689194539156b6222"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "extra_mesh_objects",
+      "name": "Extra Mesh Objects",
+      "tagline": "Add extra mesh object types",
+      "version": "0.4.1",
+      "type": "add-on",
+      "maintainer": "Community",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://projects.blender.org/extensions/add_mesh_extra_objects",
+      "copyright": [
+        "2024 Multiple Authors"
+      ],
+      "tags": [
+        "Add Mesh"
+      ],
+      "archive_url": "./extra_mesh_objects-0.4.1.zip",
+      "archive_size": 133442,
+      "archive_hash": "sha256:7fad8ddbb637c55c048b211027bdd0bbc9c1671c540babe0c13044dc50af96c1"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "glare_node_controller",
+      "name": "Glare Node Controller",
+      "tagline": "panel to control Glare",
+      "version": "2.3.3",
+      "type": "add-on",
+      "maintainer": "darkstarrd",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "Node",
+        "Render"
+      ],
+      "archive_url": "./glare_node_controller-2.3.3.zip",
+      "archive_size": 3563,
+      "archive_hash": "sha256:085e9e8478456f90711cd5cc43f3ff95e0bf3711fc3595bf3aac8fd667c5034b"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "looptools",
+      "name": "LoopTools",
+      "tagline": "Mesh modelling toolkit. Several tools to aid modelling",
+      "version": "4.7.7",
+      "type": "add-on",
+      "maintainer": "Community",
+      "license": [
+        "SPDX:GPL-2.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://projects.blender.org/extensions/mesh_looptools",
+      "copyright": [
+        "2024 Bart Crouch",
+        "2024 Vladimir Spivak (cwolf3d)"
+      ],
+      "tags": [
+        "Mesh"
+      ],
+      "archive_url": "./looptools-4.7.7.zip",
+      "archive_size": 36711,
+      "archive_hash": "sha256:b9e86882ec54a7353514cca820077d7fb437da1f9d5c76629a9bf5001c427c9e"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "ndof_viewport_switcher",
+      "name": "NDOF Viewport Switcher",
+      "tagline": "Exit fixed views (ortho/camera) with NDOF device",
+      "version": "1.3.4",
+      "type": "add-on",
+      "maintainer": "ChrisP",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/ChrisPZone/blender-ndof-viewport-switcher",
+      "copyright": [
+        "2025-2026 ChrisP"
+      ],
+      "tags": [
+        "User Interface",
+        "3D View"
+      ],
+      "archive_url": "./ndof_viewport_switcher-1.3.4.zip",
+      "archive_size": 14415,
+      "archive_hash": "sha256:672413cc9db7709f9d6c959d0c02f7e31d25e2ef15d7c26daaf310278053365f"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "node_arrange",
+      "name": "Node Arrange",
+      "tagline": "Arrange node trees with one click",
+      "version": "1.12.1",
+      "type": "add-on",
+      "maintainer": "Leonardo Pike-Excell <leonardopike.excell@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/Leonardo-Pike-Excell/node-arrange",
+      "tags": [
+        "Node"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./node_arrange-1.12.1.zip",
+      "archive_size": 1756301,
+      "archive_hash": "sha256:a5286e350199452b26eb5bb15eb27fce41380cd00dbcdfe70f047ace552dc891"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "node_to_python",
+      "name": "Node To Python",
+      "tagline": "Turn node groups into Python code",
+      "version": "4.2.0",
+      "type": "add-on",
+      "maintainer": "Brendan Parmer <brendanparmer+nodetopython@gmail.com>",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://github.com/BrendanParmer/NodeToPython",
+      "permissions": {
+        "files": "Creates and writes to files in a user-specified directory"
+      },
+      "tags": [
+        "Development",
+        "Compositing",
+        "Geometry Nodes",
+        "Material",
+        "Node"
+      ],
+      "archive_url": "./node_to_python-4.2.0.zip",
+      "archive_size": 80972,
+      "archive_hash": "sha256:a6884947a2360785e025d0302ffb3d868a177717d39131b4767e9aac3415ac28"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "power_sequencer",
+      "name": "Power Sequencer",
+      "tagline": "Video editing tools for content creators",
+      "version": "2.0.4",
+      "type": "add-on",
+      "maintainer": "Community",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.4.0",
+      "website": "https://projects.blender.org/extensions/power_sequencer",
+      "copyright": [
+        "2024 Nathan Lovato"
+      ],
+      "tags": [
+        "Sequencer"
+      ],
+      "archive_url": "./power_sequencer-2.0.4.zip",
+      "archive_size": 97495,
+      "archive_hash": "sha256:4622c031b3c8319f38db5ab96bff4fd7e5c5e7fe51f7f3cbc7d5f6d3e5d2ba11"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "precision_drawing_tools_pdt",
+      "name": "Precision Drawing Tools (PDT)",
+      "tagline": "Precision Drawing Tools for Accurate Modelling",
+      "version": "1.5.3",
+      "type": "add-on",
+      "maintainer": "Community",
+      "license": [
+        "SPDX:GPL-2.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://projects.blender.org/extensions/precision_drawing_tools",
+      "copyright": [
+        "2024 Alan Odom (Clockmender)",
+        "2024 Rune Morling (ermo)"
+      ],
+      "tags": [
+        "3D View"
+      ],
+      "archive_url": "./precision_drawing_tools_pdt-1.5.3.zip",
+      "archive_size": 50809,
+      "archive_hash": "sha256:a573ce925d55a875981498e3064749f16f3c11b57d031f510d922faa1df6e024"
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "render_gif_animation",
+      "name": "Render Animated .GIF",
+      "tagline": "Renders animated .GIF images directly from Blender",
+      "version": "1.7.0",
+      "type": "add-on",
+      "maintainer": "byebyeLAN",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "website": "https://extensions.blender.org/add-ons/render-gif-animation/",
+      "copyright": [
+        "2026 byebyeLAN"
+      ],
+      "tags": [
+        "Render"
+      ],
+      "platforms": [
+        "windows-x64"
+      ],
+      "python_versions": [
+        "3"
+      ],
+      "archive_url": "./render_gif_animation-1.7.0.zip",
+      "archive_size": 31251999,
+      "archive_hash": "sha256:74507ca354cb25ad156b2eefc3664fc62233d01b52c0a002b01b1c7ecb304a80"
+    }
+  ]
+}
